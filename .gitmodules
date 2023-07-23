@@ -1,0 +1,6 @@
+[submodule "packages/submodule"]
+	path = packages/submodule
+	url = https://github.com/xenobytezero/editorjs-default-toolpack.git
+[submodule "packages/submodule2"]
+	path = packages/submodule2
+	url = https://github.com/xenobytezero/strapi-plugin-react-editorjs.git

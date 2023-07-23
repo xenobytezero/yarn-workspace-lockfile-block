@@ -1,0 +1,13 @@
+{
+  "name": "yarn-workspace-lockfile-block",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "build": "yarn workspaces foreach -iv run build"
+  }
+}
